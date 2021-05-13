@@ -335,6 +335,14 @@
                 </span>
               </a>
             {:else}
+            <a class="button is-danger" on:click={startStream}>
+              <span class="icon">
+                <Icon path={mdiAccessPoint} />
+              </span>
+              <span>
+                Stream name
+              </span>
+            </a>
               <a class="button is-danger" on:click={startStream}>
                 <span class="icon">
                   <Icon path={mdiAccessPoint} />
